@@ -259,20 +259,20 @@ main {
   display: grid;
   place-items: center;
 }
-
 .review {
   width: 90vw;
   max-width: var(--fixed-width);
   background: var(--white);
   padding: 1.5rem 2rem;
+  border-radius: var(--borderRadius);
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-align: center;
 }
 .review:hover {
   box-shadow: var(--shadow-3);
+  cursor: pointer;
 }
-
 .img-container {
   position: relative;
   width: 150px;
@@ -281,7 +281,6 @@ main {
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
-
 .person-img {
   width: 100%;
   height: 100%;
@@ -290,7 +289,6 @@ main {
   border-radius: 50%;
   position: relative;
 }
-
 .quote-icon {
   position: absolute;
   top: 0;
@@ -304,7 +302,6 @@ main {
   background-color: var(--primary-500);
   color: var(--white);
 }
-
 .img-container::before {
   content: "";
   width: 100%;
@@ -319,14 +316,12 @@ main {
   margin-bottom: 0.5rem;
 }
 .job {
+  margin-bottom: 0.5rem;
   text-transform: uppercase;
   color: var(--primary-500);
-  font-size: 0.85rem;
-  font-weight: 500;
-  margin-bottom: 0.75rem;
+  font-size: 500;
   letter-spacing: var(--letterSpacing);
 }
-
 .info {
   margin-bottom: 0.75rem;
   line-height: 1.5;
