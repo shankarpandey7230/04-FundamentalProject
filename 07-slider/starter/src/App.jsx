@@ -1,5 +1,11 @@
+import Carousel from "./Carousel";
+
 const App = () => {
-  return <h2>Slider</h2>;
+  return (
+    <main>
+      <Carousel />
+    </main>
+  );
 };
 
 export default App;
