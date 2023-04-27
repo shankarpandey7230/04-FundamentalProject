@@ -12,7 +12,9 @@
   "dependencies": {
     "nanoid": "^4.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-toastify": "^9.1.2",
+    "save": "^2.9.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
