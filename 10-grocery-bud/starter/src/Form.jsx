@@ -1,10 +1,13 @@
 import { useState } from "react";
 
-const Form = () => {
+const Form = ({ addItem }) => {
   const [newItem, setNewItem] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(newItem);
+    // console.log(newItem);
+    if (!newItem) return;
+    addItem(newItem);
+    setNewItem("");
   };
   return (
     <form onSubmit={handleSubmit}>
