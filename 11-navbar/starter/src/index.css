@@ -294,10 +294,10 @@ ul {
 }
 /* === Fixed approach = 160px ===*/
 .links-container {
-  height: 0;
+  /* height: 0; */
   overflow: hidden;
   transition: var(--transition);
 }
-.show-container {
+/* .show-container {
   height: 10rem;
-}
+} */
